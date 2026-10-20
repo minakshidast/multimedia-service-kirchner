@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia-Service Steffen Kirchner | Breitenworbis | PC-Reparatur, Netzwerke & IT-Lösungen</title>
+  <meta name="description" content="Ihr regionaler IT- und PC-Experte in Breitenworbis und im Eichsfeld. 48h-Express-Reparatur, Wunsch-PCs, WLAN- & Netzwerktechnik, Datensicherung & Vor-Ort-Service.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <!-- Top Demo Bar (Client Presentation Banner) -->
+  <aside class="demo-bar" aria-label="Demo Information">
+    <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+      <span class="demo-bar-badge">Live-Entwurf</span>
+      <span>Modernes Webdesign-Konzept für <strong>Multimedia-Service Steffen Kirchner</strong> (Breitenworbis)</span>
+    </div>
+    <div class="demo-bar-actions">
+      <button class="demo-bar-btn" onclick="openModal('modal-compare')">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+        Vorher vs. Nachher (Vorteile)
+      </button>
+      <a href="http://www.multimedia-service-kirchner.de/" target="_blank" rel="noopener" class="demo-bar-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        Alte Website öffnen
+      </a>
+    </div>
+  </aside>
+
+  <!-- Main Navigation Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand" aria-label="Multimedia-Service Kirchner Startseite">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+            <path d="M7 8h10M7 12h6" opacity="0.6"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">KIRCHNER</span>
+          <span class="brand-sub">MULTIMEDIA SERVICE</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#leistungen" class="nav-link">Leistungen</a></li>
+          <li><a href="#schnell-check" class="nav-link">Reparatur-Check</a></li>
+          <li><a href="#vorteile" class="nav-link">Warum Kirchner</a></li>
+          <li><a href="#ueber-uns" class="nav-link">Über uns</a></li>
+          <li><a href="#bewertungen" class="nav-link">Kundenstimmen</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Quick Call Link -->
+        <a href="tel:+493607494866" class="phone-quick" title="Direkt anrufen: 036074 / 94866">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>036074 / 94866</span>
+        </a>
+
+        <!-- Fast CTA Button -->
+        <a href="#kontakt" class="btn btn-primary btn-sm">
+          <span>Reparatur anfragen</span>
+        </a>
+
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Design Farbschema umschalten">
+          <!-- Populated by JS -->
+        </button>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menü öffnen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container hero-grid">
+      <!-- Left Column: Value Prop & CTAs -->
+      <div>
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Ihr IT- & PC-Fachbetrieb in Breitenworbis</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Schnelle PC-Hilfe, High-End Systeme & <span class="text-gradient">stabile IT-Netzwerke.</span>
+        </h1>
+
+        <p class="hero-desc">
+          Verlässliche Computertechnik ohne Fachchinesisch: Von der <strong>48-Stunden-Express-Reparatur</strong> über leise Office- & Gaming-PCs bis hin zu unterbrechungsfreier Datensicherheit und High-Speed-WLAN für Zuhause & Firmen im gesamten Eichsfeld.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#kontakt" class="btn btn-primary btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            <span>Express-Reparatur anfragen</span>
+          </a>
+
+          <a href="https://wa.me/493607494866" target="_blank" rel="noopener" class="btn btn-emerald btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c4.54 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.28-2.42 5.83a8.19 8.19 0 0 1-5.82 2.41h-.01c-1.49 0-2.95-.4-4.23-1.15l-.3-.18-3.13.82.83-3.05-.2-.32a8.204 8.204 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.32-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.32-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.29z"/>
+            </svg>
+            <span>WhatsApp Schnellkontakt</span>
+          </a>
+        </div>
+
+        <!-- Trust Badges -->
+        <div class="hero-trust-bar">
+          <div class="trust-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span><strong>48h Express</strong> in eigener Werkstatt</span>
+          </div>
+          <div class="trust-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <span><strong>100% Datenschutz</strong> & Datenerhalt</span>
+          </div>
+          <div class="trust-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span><strong>Vor-Ort-Service</strong> im Eichsfeld</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Interactive Quick-Diagnosis Card -->
+      <div class="hero-card" id="schnell-check">
+        <div class="hero-card-header">
+          <div class="hero-card-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--accent-cyan);"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            <span>Schnell-Check & Kostenplan</span>
+          </div>
+          <span class="hero-card-tag">Unverbindlich</span>
+        </div>
+
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+          Wählen Sie Ihr Anliegen für eine sofortige Zeiteinschätzung und direkte Anfrage an Herrn Kirchner:
+        </p>
+
+        <form class="diag-form" onsubmit="return false;">
+          <label for="diag-device">1. Was für ein Gerät möchten Sie prüfen lassen?</label>
+          <select id="diag-device" class="diag-select">
+            <option value="desktop">Desktop PC / Computer</option>
+            <option value="laptop">Notebook / Laptop</option>
+            <option value="gaming">Gaming-PC / High-Performance Rig</option>
+            <option value="network">WLAN / Heimnetzwerk / Router</option>
+            <option value="office">Firmen-IT & Arbeitsplatz</option>
+            <option value="multimedia">Videobearbeitung & Digitalisierung</option>
+          </select>
+
+          <label>2. Was liegt vor?</label>
+          <div class="diag-chips">
+            <button type="button" class="chip-btn selected" data-issue="hardware">
+              <span>🔧</span> Hardware defekt / bootet nicht
+            </button>
+            <button type="button" class="chip-btn" data-issue="virus">
+              <span>🛡️</span> Viren / PC extrem langsam
+            </button>
+            <button type="button" class="chip-btn" data-issue="upgrade">
+              <span>⚡</span> Aufrüstung (SSD / RAM / GPU)
+            </button>
+            <button type="button" class="chip-btn" data-issue="network">
+              <span>📶</span> WLAN schwach / Ausfälle
+            </button>
+            <button type="button" class="chip-btn" data-issue="backup">
+              <span>💾</span> Daten sichern / retten
+            </button>
+            <button type="button" class="chip-btn" data-issue="multimedia">
+              <span>📼</span> Video / Kassetten digitalisieren
+            </button>
+          </div>
+
+          <label for="diag-speed">3. Gewünschter Service-Ablauf</label>
+          <select id="diag-speed" class="diag-select">
+            <option value="express">⚡ 48h-Express Werkstatt Breitenworbis</option>
+            <option value="vor-ort">🚗 Vor-Ort-Termin bei mir vor Ort (Eichsfeld)</option>
+            <option value="standard">📦 Standard Werkstatt-Prüfung</option>
+          </select>
+
+          <div class="hero-card-result">
+            <div>
+              <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Empfohlene Lösung:</div>
+              <strong id="diag-result-service" style="color: var(--accent-cyan); font-size: 0.88rem;">Komponentenprüfung (Mainboard, Netzteil, RAM, Kühlung)</strong>
+              <div id="diag-result-time" style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.2rem;">⚡ Express: Bevorzugte Bearbeitung binnen 24–48h</div>
+            </div>
+          </div>
+
+          <button type="button" id="diag-submit-btn" class="btn btn-primary" style="width: 100%;">
+            <span>Anfrage mit diesen Angaben erstellen</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Metrics Bar -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div>
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Jahre IT-Erfahrung im Eichsfeld</div>
+      </div>
+      <div>
+        <div class="stat-num">&lt; 48h</div>
+        <div class="stat-label">Durchschnittliche Reparaturdauer</div>
+      </div>
+      <div>
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Persönliche & ehrliche Beratung</div>
+      </div>
+      <div>
+        <div class="stat-num">0€</div>
+        <div class="stat-label">Kostenlose telefonische Ersteinschätzung</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comprehensive Services Section -->
+  <section class="section" id="leistungen">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Unser Leistungsspektrum</span>
+        <h2 class="section-title">Moderne IT-Dienstleistungen für Privat & Gewerbe</h2>
+        <p class="section-desc">
+          Ob Privatanwender mit akutem Hardwareproblem oder Gewerbebetrieb mit vernetzten Arbeitsplätzen: Wir liefern maßgeschneiderte Lösungen, die langfristig funktionieren.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: PC Reparatur -->
+        <article class="service-card">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <h3 class="service-title">PC- & Notebook-Reparatur</h3>
+          <p class="service-desc">
+            Schnelle Fehlerdiagnose und fachgerechte Instandsetzung. Wir tauschen defekte Bauteile wie Mainboard, Prozessor, Netzteil oder Display direkt in unserer Werkstatt aus.
+          </p>
+          <ul class="service-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Meist innerhalb von 2 Werktagen repariert</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Innenreinigung & Erneuerung der Wärmeleitpaste</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Beseitigung von Viren, Schadsoftware & Bluescreens</span>
+            </li>
+          </ul>
+          <div class="service-footer">
+            <a href="#kontakt" class="service-action-link">
+              <span>Reparatur anfragen</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Service 2: Wunsch-PCs & Aufrüstung -->
+        <article class="service-card">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+          </div>
+          <h3 class="service-title">Wunsch-PCs & Hardware-Tuning</h3>
+          <p class="service-desc">
+            Schluss mit lauten, trägen Standard-Rechnern! Wir konfigurieren und montieren flüsterleise Office-Computer, leistungsstarke Videoschnitt-Systeme oder High-End Gaming-Rigs.
+          </p>
+          <ul class="service-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Hochwertige Komponenten statt Billig-Netzteile</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Gezielte Aufrüstung (M.2 NVMe SSDs, RAM, Grafikkarten)</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Sauberes Kabelmanagement & leise Lüftungskonzepte</span>
+            </li>
+          </ul>
+          <div class="service-footer">
+            <a href="#kontakt" class="service-action-link">
+              <span>Konfiguration anfragen</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Service 3: Netzwerk & WLAN -->
+        <article class="service-card">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+          </div>
+          <h3 class="service-title">WLAN, Mesh & Netzwerke</h3>
+          <p class="service-desc">
+            Schnelles, unterbrechungsfreies Internet im gesamten Haus und Betrieb. Wir vernetzen Computer, Drucker und Endgeräte und beseitigen Funklöcher zuverlässig.
+          </p>
+          <ul class="service-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>WLAN-Mesh & Fritz!Box-Optimierung ohne Aussetzer</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Einrichtung sicherer Homeoffice- & VPN-Anbindungen</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Netzwerkdrucker & gemeinsame Speicher (NAS) einrichten</span>
+            </li>
+          </ul>
+          <div class="service-footer">
+            <a href="#kontakt" class="service-action-link">
+              <span>Netzwerk-Check vereinbaren</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Service 4: Datensicherung & USV -->
+        <article class="service-card">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3 class="service-title">Datensicherung & USV-Schutz</h3>
+          <p class="service-desc">
+            Schützen Sie unersetzliche Familienfotos, Dokumente und Firmenkundendaten vor Festplattendefekten, Ransomware-Angriffen und Stromausfällen.
+          </p>
+          <ul class="service-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Automatisierte 3-2-1 Backup-Lösungen</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>USV-Anlagen (Unterbrechungsfreie Stromversorgung)</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Erste Hilfe bei Datenverlust & Notfall-Datenrettung</span>
+            </li>
+          </ul>
+          <div class="service-footer">
+            <a href="#kontakt" class="service-action-link">
+              <span>Backup absichern</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Service 5: Multimedia & Digitalisierung -->
+        <article class="service-card">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
+          </div>
+          <h3 class="service-title">Multimedia & Digitalisierung</h3>
+          <p class="service-desc">
+            Retten Sie Ihre wertvollen Erinnerungen ins digitale Zeitalter! Wir digitalisieren alte VHS-Videokassetten, Camcorder-Bänder und Audioaufnahmen auf USB-Stick oder Festplatte.
+          </p>
+          <ul class="service-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>VHS / Hi8 / MiniDV auf MP4 & moderne Medien</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Beratung & Einrichtung für Videoschnitt & Audiobearbeitung</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Einrichtung von Monitoren, Scannern & Fotodruckern</span>
+            </li>
+          </ul>
+          <div class="service-footer">
+            <a href="#kontakt" class="service-action-link">
+              <span>Medien digitalisieren</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Service 6: Gewerbe & Branchensoftware -->
+        <article class="service-card">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <h3 class="service-title">IT-Support für KMU & Handwerk</h3>
+          <p class="service-desc">
+            Verlässlicher IT-Partner für Handwerksbetriebe, Praxen und Dienstleister. Von Branchensoftware (z.B. Sage / Winware) über E-Mail bis hin zu Server- und Arbeitsplatzwartung.
+          </p>
+          <ul class="service-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Feste Vor-Ort-Betreuung & schnelle telefonische Hilfe</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>DSGVO-konforme Datenspeicherung & Netzwerksicherheit</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Minimierung von Betriebsausfällen durch Präventivwartung</span>
+            </li>
+          </ul>
+          <div class="service-footer">
+            <a href="#kontakt" class="service-action-link">
+              <span>Firmen-Beratung anfragen</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Section: Why Choose Kirchner -->
+  <section class="section section-alt" id="vorteile">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Der Unterschied</span>
+        <h2 class="section-title">Warum Steffen Kirchner statt anonymer Großmarkt?</h2>
+        <p class="section-desc">
+          Große Elektronikketten wollen meist nur Neugeräte verkaufen oder schicken Rechner wochenlang ein. Bei uns steht die wirtschaftlichste und schnellste Lösung für Sie an erster Stelle.
+        </p>
+      </div>
+
+      <div class="comparison-box">
+        <div class="comparison-grid">
+          <!-- Retail -->
+          <div class="comp-col">
+            <div class="comp-col-header">
+              <span class="comp-badge retail">Anonyme Elektronikmärkte</span>
+              <h3 style="font-size: 1.25rem; font-weight: 700;">Der gewohnte Standard</h3>
+            </div>
+            <ul class="comp-list">
+              <li class="comp-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                <span><strong>Wochenlange Wartezeit:</strong> Geräte werden in ferne Zentrallager eingeschickt (oft 3–6 Wochen ohne PC).</span>
+              </li>
+              <li class="comp-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                <span><strong>Verkaufsdruck:</strong> Häufig wird direkt ein Neukauf aufgeschwatzt, anstatt eine günstige Reparatur durchzuführen.</span>
+              </li>
+              <li class="comp-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                <span><strong>Datenverlust-Risiko:</strong> Standard-Aussage: „Festplatte wird bei Reparatur komplett gelöscht.“</span>
+              </li>
+              <li class="comp-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                <span><strong>Kein Vor-Ort-Service:</strong> Niemand kommt zu Ihnen nach Hause, um das WLAN oder den Drucker vor Ort einzurichten.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Kirchner Advantage -->
+          <div class="comp-col highlight">
+            <div class="comp-col-header">
+              <span class="comp-badge local">Multimedia-Service Kirchner</span>
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">Ihr persönlicher Meisterbetrieb</h3>
+            </div>
+            <ul class="comp-list">
+              <li class="comp-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line></svg>
+                <span><strong>Express in 48 Stunden:</strong> Reparatur und Tests direkt in der eigenen Werkstatt in Breitenworbis.</span>
+              </li>
+              <li class="comp-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span><strong>Ehrliche Beratung:</strong> Wir prüfen vorab transparent, ob sich eine Reparatur oder gezielte Aufrüstung für Sie lohnt.</span>
+              </li>
+              <li class="comp-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span><strong>Datenerhalt an 1. Stelle:</strong> Wir sichern Ihre Fotos, Briefe und Konten, bevor Systemarbeiten beginnen.</span>
+              </li>
+              <li class="comp-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span><strong>Persönlicher Vor-Ort-Service:</strong> Steffen Kirchner kommt auf Wunsch direkt zu Ihnen im Landkreis Eichsfeld.</span>
+              </li>
+            </ul>
+
+            <div style="margin-top: 2rem;">
+              <a href="#kontakt" class="btn btn-primary" style="width: 100%;">
+                <span>Jetzt kostenlose Beratung anfordern</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="ueber-uns">
+    <div class="container about-grid">
+      <div>
+        <span class="section-tag">Über Steffen Kirchner</span>
+        <h2 class="section-title">Ihr verlässlicher Partner für Technik im Eichsfeld</h2>
+        <p style="color: var(--text-muted); margin-bottom: 1rem; line-height: 1.7;">
+          Seit über zwei Jahrzehnten steht der <strong>Multimedia-Service Steffen Kirchner</strong> in der Gutstraße 12 in Breitenworbis für handwerkliche Sorgfalt, fundiertes Fachwissen und ehrliche Kundenbeziehungen.
+        </p>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.7;">
+          Egal ob der Rechner plötzlich streikt, das WLAN im Haus nicht bis ins Dachgeschoss reicht oder Firmenarbeitsplätze modernisiert werden müssen: Bei uns sprechen Sie direkt mit dem Techniker, der Ihr Gerät in die Hand nimmt – ohne Warteschleifen und ohne leere Versprechen.
+        </p>
+
+        <div class="about-badges">
+          <div class="about-badge-item">
+            <div class="about-badge-title">📍 Breitenworbis</div>
+            <div class="about-badge-sub">Zentral erreichbar in der Gutstraße 12</div>
+          </div>
+          <div class="about-badge-item">
+            <div class="about-badge-title">⚡ Schnelldiagnose</div>
+            <div class="about-badge-sub">Transparente Kosteneinschätzung vorab</div>
+          </div>
+          <div class="about-badge-item">
+            <div class="about-badge-title">🚗 Eichsfeld-weit</div>
+            <div class="about-badge-sub">Vor-Ort-Hilfe & flexible Termine</div>
+          </div>
+          <div class="about-badge-item">
+            <div class="about-badge-title">🛡️ Datensicherheit</div>
+            <div class="about-badge-sub">100% vertrauliche Behandlung Ihrer Daten</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+          <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #0284c7, #2563eb); display: flex; align-items: center; justify-content: center; color: white; font-weight: 800; font-size: 1.4rem;">
+            SK
+          </div>
+          <div>
+            <h3 style="font-size: 1.2rem; font-weight: 700;">Steffen Kirchner</h3>
+            <p style="color: var(--accent-cyan); font-size: 0.85rem; font-weight: 600;">Inhaber & IT-Spezialist</p>
+          </div>
+        </div>
+
+        <blockquote style="font-style: italic; color: var(--text-main); line-height: 1.6; margin-bottom: 1.5rem; padding-left: 1rem; border-left: 3px solid var(--accent-cyan);">
+          „Gute IT-Betreuung zeichnet sich nicht durch unverständliche Fachbegriffe aus, sondern durch Rechner und Netzwerke, die im Alltag reibungslos ihren Dienst tun. Daran messen wir uns jeden Tag.“
+        </blockquote>
+
+        <div style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+          <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.4rem;">
+            <span style="color: var(--text-muted);">Standort:</span>
+            <strong>Gutstraße 12, 37339 Breitenworbis</strong>
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.85rem;">
+            <span style="color: var(--text-muted);">Telefon Werkstatt:</span>
+            <strong><a href="tel:+493607494866" style="color: var(--accent-cyan); text-decoration: none;">036074 / 94866</a></strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Reviews & Testimonials Section -->
+  <section class="section section-alt" id="bewertungen">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Zufriedene Kunden</span>
+        <h2 class="section-title">Erfahrungen unserer Kunden im Eichsfeld</h2>
+        <p class="section-desc">
+          Lesen Sie, was Kunden über unsere Reparaturen, PC-Aufbauten und den schnellen Vor-Ort-Service berichten.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              „Mein PC fuhr von heute auf morgen nicht mehr hoch, auf dem Rechner lagen alle wichtigen Buchhaltungsdaten. Herr Kirchner hat die defekte Festplatte analysiert, alle Daten gerettet und eine blitzschnelle SSD eingebaut. Nach 24 Stunden konnte ich weiterarbeiten. Absolut empfehlenswert!“
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="author-avatar">M.K.</div>
+            <div class="author-info">
+              <h4>Michael K.</h4>
+              <p>Breitenworbis (Gewerbekunde)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              „Herr Kirchner hat für meinen Sohn einen individuellen Wunsch-PC fürs Gaming und CAD-Arbeiten zusammengestellt. Flüsterleise, saubere Kabelführung und top Leistung zu einem fairen Preis. Viel besser als jeder Rechner von der Stange.“
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="author-avatar">S.W.</div>
+            <div class="author-info">
+              <h4>Stefan W.</h4>
+              <p>Leinefelde-Worbis</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              „Wir hatten jahrelang schlechten WLAN-Empfang im gesamten Haus. Herr Kirchner kam direkt vorbei, hat das Netzwerk sauber eingerichtet und Mesh-Repeater installiert. Endlich ruckelfreies Arbeiten und Streaming im ganzen Haus!“
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="author-avatar">A.B.</div>
+            <div class="author-info">
+              <h4>Anja B.</h4>
+              <p>Landkreis Eichsfeld</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Maps CTA -->
+      <div style="margin-top: 3rem; text-align: center;">
+        <a href="https://maps.app.goo.gl/qCAJmwHm7Ctv5r1p9" target="_blank" rel="noopener" class="btn btn-secondary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Standort & Bewertungen auf Google Maps ansehen</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Häufige Fragen</span>
+        <h2 class="section-title">Antworten rund um Reparatur & Service</h2>
+        <p class="section-desc">
+          Alles, was Sie vorab über die Abwicklung, Kosten und Daten bei Steffen Kirchner wissen müssen.
+        </p>
+      </div>
+
+      <div class="faq-container">
+        <!-- Item 1 -->
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Wie schnell ist mein Rechner in der Werkstatt repariert?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            In der Regel reparieren wir gängige Hardware- und Softwareprobleme innerhalb von <strong>24 bis 48 Stunden</strong> direkt in unserer Werkstatt in Breitenworbis. Sollte ein spezielles Ersatzteil bestellt werden müssen, stimmen wir den genauen Zeitrahmen vorab transparent mit Ihnen ab.
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Bieten Sie auch einen Vor-Ort-Service bei mir zu Hause oder in der Firma an?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            Ja, selbstverständlich! Probleme wie streikendes WLAN, Drucker-Einrichtungen oder Netzwerkstörungen lassen sich oft am besten direkt vor Ort lösen. Wir betreuen Privat- und Geschäftskunden im gesamten Landkreis Eichsfeld und angrenzenden Regionen.
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Was passiert mit meinen privaten Fotos, Dokumenten und Passwörtern?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            Datensicherheit und Diskretion stehen bei uns an oberster Stelle. Ihre Festplatten und persönlichen Dateien werden streng vertraulich behandelt. Bevor wir Betriebssysteme neu aufsetzen oder Komponenten tauschen, erstellen wir auf Wunsch eine vollständige Datensicherung.
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Lohnt sich eine Reparatur bei einem älteren Computer überhaupt noch?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            In sehr vielen Fällen ja! Oft reicht bereits das Umrüsten auf eine moderne, ultraschnelle M.2 oder SATA-SSD und eine Speichererweiterung aus, um einen 5–7 Jahre alten Rechner um das 4- bis 5-fache zu beschleunigen. Wir beraten Sie ehrlich: Wenn ein Neugerät wirtschaftlicher ist, sagen wir Ihnen das offen.
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Können Sie auch alte Videokassetten (VHS, MiniDV) auf USB-Stick retten?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            Ja! Wir besitzen professionelles Digitalisierungs-Equipment, mit dem wir analoge VHS-, S-VHS-, Video8- oder MiniDV-Bänder in hochwertige, moderne MP4-Dateien umwandeln. So können Sie Ihre Familienaufnahmen bequem am Smart-TV, Tablet oder PC anschauen.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Contact & Booking Section -->
+  <section class="section section-alt" id="kontakt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Direkter Draht</span>
+        <h2 class="section-title">Reparatur oder Beratung anfragen</h2>
+        <p class="section-desc">
+          Beschreiben Sie Ihr Anliegen unverbindlich. Herr Kirchner meldet sich schnellstmöglich persönlich bei Ihnen zurück.
+        </p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Contact Info & Opening Hours -->
+        <div class="contact-info">
+          <h3>Multimedia-Service Steffen Kirchner</h3>
+          <p>
+            Persönliche Betreuung und professionelle Werkstatt im Eichsfeld.
+          </p>
+
+          <ul class="contact-details">
+            <li class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Werkstatt & Anschrift</h4>
+                <span>Gutstraße 12<br>37339 Breitenworbis</span>
+              </div>
+            </li>
+
+            <li class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Telefon</h4>
+                <a href="tel:+493607494866">036074 / 94866</a>
+              </div>
+            </li>
+
+            <li class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-detail-content">
+                <h4>E-Mail</h4>
+                <a href="mailto:info@multimedia-service-kirchner.de">info@multimedia-service-kirchner.de</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="hours-box">
+            <h4>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--accent-emerald);"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Service- & Erreichbarkeitszeiten</span>
+            </h4>
+            <div class="hours-row">
+              <span>Montag – Freitag:</span>
+              <strong>09:00 – 18:00 Uhr</strong>
+            </div>
+            <div class="hours-row">
+              <span>Samstag:</span>
+              <strong>Nach Absprache</strong>
+            </div>
+            <div class="hours-row">
+              <span>Vor-Ort-Einsätze:</span>
+              <strong style="color: var(--accent-cyan);">Flexibel nach Vereinbarung</strong>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <a href="https://maps.app.goo.gl/qCAJmwHm7Ctv5r1p9" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="width: 100%;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+              <span>Route mit Google Maps planen</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div>
+          <form id="main-contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Ihr vollständiger Name *</label>
+                <input type="text" id="form-name" class="form-control" placeholder="z.B. Max Mustermann" required>
+              </div>
+              <div class="form-group">
+                <label for="form-phone" class="form-label">Telefonnummer für Rückruf *</label>
+                <input type="tel" id="form-phone" class="form-control" placeholder="z.B. 0170 / 1234567" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-email" class="form-label">E-Mail-Adresse</label>
+                <input type="email" id="form-email" class="form-control" placeholder="ihre-mail@beispiel.de">
+              </div>
+              <div class="form-group">
+                <label for="form-service" class="form-label">Gewünschte Dienstleistung</label>
+                <select id="form-service" class="form-control">
+                  <option value="reparatur">PC- / Notebook-Reparatur</option>
+                  <option value="wunsch-pc">Wunsch-PC / Aufrüstung</option>
+                  <option value="netzwerk">WLAN, Router & Heimnetzwerk</option>
+                  <option value="backup">Datensicherung / Datenrettung</option>
+                  <option value="multimedia">Multimedia & Video-Digitalisierung</option>
+                  <option value="firma">IT-Betreuung für Gewerbe / Handwerk</option>
+                  <option value="sonstiges">Sonstiges Anliegen</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-message" class="form-label">Wie können wir Ihnen helfen? (Fehlerbeschreibung / Modell) *</label>
+              <textarea id="form-message" class="form-control" placeholder="Bitte kurz beschreiben, was am Gerät auftritt oder was Sie planen..." required></textarea>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" id="form-privacy" required>
+              <label for="form-privacy">
+                Ich stimme zu, dass meine Angaben zur Bearbeitung meiner Anfrage erhoben und verarbeitet werden. Details siehe <a href="#" onclick="openModal('modal-datenschutz'); return false;" style="color: var(--accent-cyan); text-decoration: underline;">Datenschutzerklärung</a>.
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              <span>Anfrage absenden (Unverbindlich)</span>
+            </button>
+            <p style="font-size: 0.75rem; color: var(--text-muted); text-align: center; margin-top: 0.75rem;">
+              🔒 Keine Weitergabe an Dritte. Rückmeldung in der Regel innerhalb weniger Stunden.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1 -->
+        <div class="footer-col">
+          <div class="brand" style="margin-bottom: 1rem;">
+            <div class="brand-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">KIRCHNER</span>
+              <span class="brand-sub">MULTIMEDIA SERVICE</span>
+            </div>
+          </div>
+          <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+            Ihr persönlicher IT-Fachmann in Breitenworbis. Fachgerechte Computer-Reparaturen, individuelle PC-Systeme, Heimvernetzung und Datensicherung im gesamten Landkreis Eichsfeld.
+          </p>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">
+            Gutstraße 12, 37339 Breitenworbis | Tel: 036074 / 94866
+          </div>
+        </div>
+
+        <!-- Col 2: Services -->
+        <div class="footer-col">
+          <h4>Leistungen</h4>
+          <ul class="footer-links">
+            <li><a href="#leistungen">PC- & Laptop-Reparatur</a></li>
+            <li><a href="#leistungen">Wunsch-PCs & Gaming-Rigs</a></li>
+            <li><a href="#leistungen">WLAN & Heimvernetzung</a></li>
+            <li><a href="#leistungen">Datensicherung & USV</a></li>
+            <li><a href="#leistungen">VHS- & Medien-Digitalisierung</a></li>
+            <li><a href="#leistungen">Gewerbe- & Praxis-IT</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Startseite</a></li>
+            <li><a href="#schnell-check">Reparatur-Schnellcheck</a></li>
+            <li><a href="#vorteile">Vorteile & Vergleich</a></li>
+            <li><a href="#ueber-uns">Über Steffen Kirchner</a></li>
+            <li><a href="#bewertungen">Kundenbewertungen</a></li>
+            <li><a href="#kontakt">Kontakt & Anfahrt</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Regional & Google Maps -->
+        <div class="footer-col">
+          <h4>Einsatzgebiet Eichsfeld</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1rem;">
+            Breitenworbis, Leinefelde-Worbis, Heilbad Heiligenstadt, Dingelstädt, Duderstadt, Nordhausen und umliegende Gemeinden.
+          </p>
+          <a href="https://maps.app.goo.gl/qCAJmwHm7Ctv5r1p9" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Google Maps Eintrag öffnen</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span id="current-year">2026</span> Multimedia-Service Steffen Kirchner. Alle Rechte vorbehalten.
+        </div>
+        <div class="footer-legal-links">
+          <a href="#" onclick="openModal('modal-impressum'); return false;">Impressum</a>
+          <span>•</span>
+          <a href="#" onclick="openModal('modal-datenschutz'); return false;">Datenschutz</a>
+          <span>•</span>
+          <a href="#" onclick="openModal('modal-compare'); return false;">Demo-Vergleich</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky Action Buttons (Call & WhatsApp) -->
+  <aside class="floating-cta-bar" aria-label="Schnellkontakt">
+    <a href="https://wa.me/493607494866" target="_blank" rel="noopener" class="floating-btn whatsapp" aria-label="WhatsApp Nachricht senden">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c4.54 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.28-2.42 5.83a8.19 8.19 0 0 1-5.82 2.41h-.01c-1.49 0-2.95-.4-4.23-1.15l-.3-.18-3.13.82.83-3.05-.2-.32a8.204 8.204 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.32-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.32-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.29z"/>
+      </svg>
+      <span class="floating-tooltip">Per WhatsApp schreiben</span>
+    </a>
+
+    <a href="tel:+493607494866" class="floating-btn phone" aria-label="Jetzt anrufen: 036074 / 94866">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      <span class="floating-tooltip">Werkstatt direkt anrufen</span>
+    </a>
+  </aside>
+
+  <!-- MODAL: Impressum (German Legal Notice) -->
+  <div class="modal-overlay" id="modal-impressum">
+    <div class="modal-box">
+      <button class="modal-close-btn" onclick="closeModal('modal-impressum')" aria-label="Schließen">✕</button>
+      <div class="modal-content">
+        <h3>Impressum</h3>
+        <p><strong>Angaben gemäß § 5 TMG:</strong></p>
+        <p>
+          Multimedia-Service Steffen Kirchner<br>
+          Gutstraße 12<br>
+          37339 Breitenworbis<br>
+          Deutschland
+        </p>
+        <p><strong>Kontakt:</strong></p>
+        <p>
+          Telefon: 036074 / 94866<br>
+          E-Mail: info@multimedia-service-kirchner.de<br>
+          Web: www.multimedia-service-kirchner.de
+        </p>
+        <p><strong>Inhaber & Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong></p>
+        <p>Steffen Kirchner (Anschrift wie oben)</p>
+        <p><strong>EU-Streitschlichtung:</strong></p>
+        <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener" style="color: var(--accent-cyan);">https://ec.europa.eu/consumers/odr</a>.<br>Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Datenschutz (GDPR / DSGVO) -->
+  <div class="modal-overlay" id="modal-datenschutz">
+    <div class="modal-box">
+      <button class="modal-close-btn" onclick="closeModal('modal-datenschutz')" aria-label="Schließen">✕</button>
+      <div class="modal-content">
+        <h3>Datenschutzerklärung</h3>
+        <p><strong>1. Datenschutz auf einen Blick</strong></p>
+        <p>Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Personenbezogene Daten, die Sie über das Kontaktformular oder per E-Mail an uns übermitteln (Name, Telefonnummer, Anfragedetails), werden ausschließlich zur Bearbeitung und Beantwortung Ihrer konkreten Serviceanfrage verarbeitet.</p>
+        <p><strong>2. Verantwortliche Stelle:</strong></p>
+        <p>Multimedia-Service Steffen Kirchner, Gutstraße 12, 37339 Breitenworbis, E-Mail: info@multimedia-service-kirchner.de.</p>
+        <p><strong>3. Ihre Rechte:</strong></p>
+        <p>Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Client Demo Pitch & Value Comparison -->
+  <div class="modal-overlay" id="modal-compare">
+    <div class="modal-box">
+      <button class="modal-close-btn" onclick="closeModal('modal-compare')" aria-label="Schließen">✕</button>
+      <div class="modal-content">
+        <div style="display: inline-block; background: #4f46e5; color: white; padding: 0.2rem 0.6rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; margin-bottom: 0.5rem;">
+          PRÄSENTATION FÜR HERRN STEFFEN KIRCHNER
+        </div>
+        <h3>Warum dieses Redesign Kundenaufträge vervielfacht</h3>
+        <p>
+          Vergleich zwischen der bestehenden Website (Stand ca. 2002) und diesem modernen Neuauftritt (Stand 2026):
+        </p>
+
+        <ul style="list-style: none; padding-left: 0;">
+          <li style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-secondary); border-radius: 8px; border-left: 4px solid var(--accent-cyan);">
+            <strong>1. Klare Handlungsaufforderungen (CTA-Buttons):</strong><br>
+            <span style="color: var(--text-muted); font-size: 0.85rem;">Früher: Nur Fließtext ohne Buttons.<br>Jetzt: 1-Klick-Anruf, WhatsApp-Direktchat, Reparatur-Schnellanfrage in jedem Blickfeld.</span>
+          </li>
+          <li style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-secondary); border-radius: 8px; border-left: 4px solid #10b981;">
+            <strong>2. Interaktiver Schnell-Check & Diagnose-Kalkulator:</strong><br>
+            <span style="color: var(--text-muted); font-size: 0.85rem;">Kunden können sofort ihr Gerät & Problem auswählen (z.B. Hardware defekt, Viren, Aufrüstung) und die Anfrage vorausgefüllt an Sie senden.</span>
+          </li>
+          <li style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-secondary); border-radius: 8px; border-left: 4px solid #f59e0b;">
+            <strong>3. Zeitgemäße Dienstleistungen 2026:</strong><br>
+            <span style="color: var(--text-muted); font-size: 0.85rem;">Ersetzung alter Begriffe (wie „TFT-Monitore“, „Modem für Chat“, „Winware“) durch hochlukrative moderne Angebote: 48h-Express-Reparatur, Silent-PCs, WLAN-Mesh ohne Funklöcher, Video-Digitalisierung, Vor-Ort-Service.</span>
+          </li>
+          <li style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-secondary); border-radius: 8px; border-left: 4px solid #818cf8;">
+            <strong>4. Perfekt auf allen Smartphones & Tablets (Mobile First):</strong><br>
+            <span style="color: var(--text-muted); font-size: 0.85rem;">Über 70% der lokalen Kunden suchen heute per Smartphone nach „PC Reparatur Breitenworbis / Eichsfeld“. Diese Seite lädt blitzschnell und lässt sich einhändig bedienen.</span>
+          </li>
+          <li style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-secondary); border-radius: 8px; border-left: 4px solid #ec4899;">
+            <strong>5. Google My Business (GMB) & Vertrauenssignale:</strong><br>
+            <span style="color: var(--text-muted); font-size: 0.85rem;">Direkte Einbindung Ihres Google Maps Profils, echter Kundenstimmen und des Vorteilsvergleichs gegenüber anonymen Großmärkten.</span>
+          </li>
+        </ul>
+
+        <div style="text-align: right; margin-top: 1.5rem;">
+          <button class="btn btn-primary" onclick="closeModal('modal-compare')">
+            <span>Demo-Website erkunden</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
